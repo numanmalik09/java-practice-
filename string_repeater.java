@@ -1,7 +1,11 @@
+ // MAKE SURE BEFORE RUNNING THIS CODE IN YOUR IDE YOU MAKE THE CLASS "STRINGREPEATER.JAVA"
+
+
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Demo {
+public class stringrepeater.java {
    public static void main() {
 
        Scanner user= new Scanner(System.in);
