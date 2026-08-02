@@ -1,4 +1,4 @@
-
+// MAKE SURE BEFORE RUNNING THIS CODE IN YOUR IDE YOU MAKE THE CLASS "numberguessing game .JAVA"
 import java.sql.SQLOutput;
 import java.util.Scanner;
 public class numberguessinggame {
