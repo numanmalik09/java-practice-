@@ -1,3 +1,5 @@
+// MAKE SURE BEFORE RUNNING THIS CODE IN YOUR IDE YOU MAKE THE CLASS "atmsimulation.JAVA"
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
