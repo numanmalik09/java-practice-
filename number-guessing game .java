@@ -1,4 +1,4 @@
-mport java.sql.SQLOutput;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Demo {
