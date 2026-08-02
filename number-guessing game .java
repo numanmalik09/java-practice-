@@ -4,26 +4,26 @@ import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
         
-        // THIS IS THE NUMBER GUESSING GAME 
-
+        // NUMBER GUESSING GAME 
       
         int random_number;
-         random_number = (int)(Math.random() *100 +1);
+         random_number = (int)(Math.random() *100 +1); // Random Numnber GENERATE 
 
-//        System.out.println(random_number);
-Scanner sc= new Scanner(System.in);
+Scanner sc= new Scanner(System.in);      // Scanner Activition 
         System.out.println("enter a number between 1-100");
- int usernum;
+ int usernum;   // user number variable 
+      // Game logic 
 do{
-//    System.out.println("guess the number between 1 - 100");
+ 
    usernum = sc.nextInt();
     if( usernum < random_number) {
-        System.out.println("Too Low : TRY AGAIN !");
+        System.out.println("Too Low : TRY AGAIN !"); // IF USER INPUT IS SMALLER THEN RANDOM NUMBER THIS MESSAFE  PRINTS 
     }else if ( usernum > random_number) {
-        System.out.println("Too High : TRY AGAIN !");
+        System.out.println("Too High : TRY AGAIN !"); // IF USER INPUT IS GREATER  THEN RANDOM NUMBER THIS MESSAGE  PRINTS 
 
     }else
-    System.out.println("Congrats You Won The Game ");
+    System.out.println("Congrats You Won The Game "); //  IF USER INPUT IS EQUALS  THEN RANDOM NUMBER THIS MESSAGE PRINTS 
+     // ENDING THE LOOP HERE 
 }while(usernum !=random_number);
 
-//
+
