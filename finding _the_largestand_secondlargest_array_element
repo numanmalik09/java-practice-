@@ -1,0 +1,20 @@
+
+        int arr[]= {11,7,5,3,9};
+        int max_array=Integer.MIN_VALUE;
+        int sec_max=Integer.MIN_VALUE;
+        for (int i= 0; i <arr.length;i++){
+            if(arr[i] >max_array){
+                sec_max=max_array;
+                max_array=arr[i];
+            } else if (arr[i] > sec_max) {
+                sec_max=arr[i];
+
+            }
+        
+        System.out.println( "The Largest Element Of An Array Is "  +  max_array  +  "And The Second Largest Element Of An Array Is " + sec_max);
+
+
+
+
+
+
