@@ -1,0 +1,13 @@
+ int arr[]={1,2,3,4,5,6}; // array created
+        int n = arr.length; // i store arr.length in n variable so i can use n every where
+        int temp=arr[0]; // i created a temp variable where i stored the value of the array element at 0th index
+
+       for ( int i=1 ;i<n;i++){ // i use for loop for repitation and i used it from 1 cause i have to shift o index value at last
+           arr[i-1]=arr[i]; // now loop starts from 1 so i use i - 1 and in this variable i stored  the "i" value in it
+        }
+       arr[n-1]=temp;// 
+
+        System.out.println(Arrays.toString(arr));
+
+}
+}
